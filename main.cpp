@@ -1,4 +1,4 @@
-#include "std_lib_inc.h";
+#include "std_lib_inc.h"
 
 class Bad_argument{};
 class Bad_input{};
@@ -222,6 +222,7 @@ bool wasd_fehler() {
 }
 
 int main() {
+    cout << "Was geht\n";
     Spielzustand spielzustand {breite, hoehe,0,false, false, 1, 1};
 
     breite = input_test();
